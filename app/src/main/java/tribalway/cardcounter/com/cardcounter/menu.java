@@ -16,16 +16,12 @@ public class menu extends AppCompatActivity {
     }
 
 
-    public void goToAdd(View view){
+    public void goToAdd(View view) {
+
         Adds.incomingView = view.getId();
         Intent intent = new Intent(this, Adds.class);
         startActivity(intent);
-
-        }
-
-
-
-
+    }
 
 
     public void textBorder() {
@@ -37,7 +33,7 @@ public class menu extends AppCompatActivity {
         regular.setBackgroundResource(R.drawable.border);
         advanced.setBackgroundResource(R.drawable.border);
         stradegy.setBackgroundResource(R.drawable.border);
-        }
+    }
 
 
 }

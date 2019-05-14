@@ -34,7 +34,7 @@
             android:textSize="20dp" />
 
         <TextView
-            android:id="@+id/running_count"
+            android:id="@+id/true_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/count"
@@ -48,7 +48,7 @@
             android:id="@+id/number_of_decks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/running_count"
+            android:layout_below="@id/true_count"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
             android:text="@string/remaining_decks_equals"
@@ -84,7 +84,8 @@
             android:layout_centerHorizontal="true"
 
             android:layout_toStartOf="@id/set_decks"
-            android:text="@string/menu" />
+            android:text="@string/menu"
+            android:onClick="goToMenu"/>
     </RelativeLayout>
 
     <LinearLayout
@@ -94,11 +95,16 @@
         android:background="#ffffff"
         android:orientation="horizontal">
 
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
         <RadioButton
             android:id="@+id/one_deck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/one_deck"
+            android:onClick="radioSelection"
             />
 
         <RadioButton
@@ -106,7 +112,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/two_decks"
+            android:onClick="radioSelection"
             />
+
+            <RadioButton
+                android:id="@+id/four_decks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/four_decks"
+                android:onClick="radioSelection"
+                />
+
+            <RadioButton
+                android:id="@+id/six_decks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/six_decks"
+                android:onClick="radioSelection"
+                />
+
+            <RadioButton
+                android:id="@+id/eight_decks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/eight_decks"
+                android:onClick="radioSelection"
+                />
 
         <TextView
             android:id="@+id/done"
@@ -115,6 +146,7 @@
             android:text="@string/done"
             android:layout_marginStart="20dp"
             android:onClick="done"/>
+        </RadioGroup>
 
     </LinearLayout>
 

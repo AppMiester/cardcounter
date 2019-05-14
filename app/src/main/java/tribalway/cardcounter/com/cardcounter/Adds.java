@@ -31,7 +31,14 @@ public class Adds extends AppCompatActivity {
 
             case R.id.regular :
                  intent = new Intent(this,Regular.class);
+                 break;
 
+            case R.id.menu :
+                intent = new Intent(this,menu.class);
+                break;
+
+            case R.id.advanced:
+                intent = new Intent(this,Advanced.class);
                 break;
         }
         startActivity(intent);

@@ -38,6 +38,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_gravity="center_horizontal"
+        android:onClick="goToAdd"
         />
 
     <TextView

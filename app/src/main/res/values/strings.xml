@@ -2,12 +2,15 @@
     <string name="app_name">cardcounter</string>
 
     <string name="count_equals">Count = </string>
-    <string name= "running_count_equals">Running Count = </string>
-    <string name= "remaining_decks_equals">Remaining Decks = </string>
-    <string name= "set_number_of_decks">set # of decks </string>
-    <string name= "reset_count">Reset Count </string>
-    <string name= "done">Done</string>
-    <string name= "menu">Menu</string>
-    <string name= "one_deck">One Deck</string>
-    <string name= "two_decks">Two Decks</string>
+    <string name="running_count_equals">True Count = </string>
+    <string name="remaining_decks_equals">Remaining Decks = </string>
+    <string name="set_number_of_decks">set # of decks </string>
+    <string name="reset_count">Reset Count </string>
+    <string name="done">Done</string>
+    <string name="menu">Menu</string>
+    <string name="one_deck">One Deck</string>
+    <string name="two_decks">Two Decks</string>
+    <string name="four_decks">Four Decks</string>
+    <string name="six_decks">Six Decks</string>
+    <string name="eight_decks">Eight Decks</string>
 </resources>

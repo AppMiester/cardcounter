@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".menu" />
         <activity android:name=".Adds" />
-        <activity android:name=".Regular"></activity>
+        <activity android:name=".Regular" />
+        <activity android:name=".Advanced"></activity>
     </application>
 
 </manifest>
