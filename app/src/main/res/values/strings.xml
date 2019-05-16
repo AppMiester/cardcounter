@@ -13,4 +13,6 @@
     <string name="four_decks">Four Decks</string>
     <string name="six_decks">Six Decks</string>
     <string name="eight_decks">Eight Decks</string>
+    <string name="select_number_decks">Select # Of Decks</string>
+
 </resources>

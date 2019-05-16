@@ -71,7 +71,7 @@
             android:layout_above="@+id/set_decks"
             android:layout_alignBaseline="@+id/set_decks"
             android:layout_centerHorizontal="true"
-
+            android:onClick="resetShoe"
             android:layout_toEndOf="@id/set_decks"
             android:text="@string/reset_count" />
 
